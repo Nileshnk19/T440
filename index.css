@@ -1,0 +1,126 @@
+h1 {
+    font-family: 'Lucida Sans Unicode Regular';
+}
+
+body {
+    font-family: 'Comic Sans';
+}
+
+.hor-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    background-color:#3d814e;
+    font-size: 18px;
+}
+
+.hor-nav ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.hor-nav li{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.hor-nav a{
+    text-decoration: none;
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+}
+
+
+header p {
+    text-align: center;
+    font-size: 22px;
+}
+
+.city-pic img {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 40%;
+}
+
+.City-des p {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.City-des ol li {
+    margin-left: 20%;
+    font-size: 20px;
+}
+ 
+h1 {
+    text-align: center;
+}
+
+.City-des p {
+    text-align: justify;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.column {
+    float: left;
+}
+
+.City-des div img {
+    width: 18rem;
+    height: 20rem;
+}
+
+.row {
+    margin-left: 19%;
+    margin-right: 19%;
+    display: flex;
+    flex: auto;
+    justify-content: space-evenly;
+}
+
+.City-des .row .column p {
+    text-align: left;
+}
+
+
+table {
+    width: 59%;
+    margin: auto;
+    border: 2px solid #3d814e;
+    text-align: justify;
+    padding: 20px;
+}
+
+table .heading th {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+td {
+    font-size: 20px;
+}
+
+.more-info {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.more-info .icons {
+    
+    
+    font-size: 40px;
+    text-align: center;
+    color:  #3d814e;
+
+}
